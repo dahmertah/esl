@@ -1,0 +1,38 @@
+{
+  "name": "dynamic-vocabulary-learner",
+  "version": "1.0.0",
+  "description": "A dynamic vocabulary learning website that generates interactive learning activities from any word list",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://dahmertah.github.io/esl"
+} 
